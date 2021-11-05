@@ -1,0 +1,24 @@
+
+public class Ex07 {
+	public static void main(String[] args) {//반복문 for
+		System.out.println("1번 찍었습니다.");
+		System.out.println("2번 찍었습니다.");
+		System.out.println("3번 찍었습니다.");
+		System.out.println("4번 찍었습니다.");
+		System.out.println("5번 찍었습니다.");
+		System.out.println("6번 찍었습니다.");
+		System.out.println("7번 찍었습니다.");
+		System.out.println("8번 찍었습니다.");
+		System.out.println("9번 찍었습니다.");
+		System.out.println("10번 찍었습니다.");
+		System.out.println("나무가 넘어갑니다.");
+		
+		System.out.println("=======================================");
+		
+		//for
+		for(int i=0; i <= 10; i++) {//반복조건 = i가 10보다 작거나 같을때 = 10이하 
+			System.out.println(i+"번 찍었습니다.");
+		}
+		System.out.println("나무가 넘어갑니다.");
+	}
+}
