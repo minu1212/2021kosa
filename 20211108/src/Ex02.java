@@ -28,6 +28,11 @@ public class Ex02 {
 			System.out.println(d[i]);
 		}
 		
+		int sum = 0;
+		for(int i = 0; i <=9; i++) {
+			sum += score[i];
+		}
+		System.out.println(sum);
 		
 	}
 }
