@@ -12,5 +12,15 @@ public class Ex14 {
 				sum += i[row][col];
 			}
 		}System.out.println(sum);
+		
+		//합계와 평균을 foreach문을 사용해서 구하시오.
+		int [] score = {60,89,56,73,66,90,95};
+		sum = 0;
+		for(int num : score) {
+			sum += num;
+		}
+		System.out.println("합계는 "+ sum);
+		System.out.println("평균은 "+ sum / score.length);
+		
 	}
 }
